@@ -32,6 +32,8 @@ RUN apt-get install -y git
 # supervisor
 RUN apt-get install -y supervisor
 
+RUN apt-get install -y libmysqlclient-dev
+
 ADD run.sh /run.sh
 RUN chmod 755 /run.sh
 
