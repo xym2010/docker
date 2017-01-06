@@ -34,8 +34,8 @@ RUN apt-get install -y supervisor
 
 RUN apt-get install -y libmysqlclient-dev
 
-RUN apt-get install python-dev
-RUN apt-get install python3-dev
+RUN apt-get install -y python-dev
+RUN apt-get install -y python3-dev
 
 ADD run.sh /run.sh
 RUN chmod 755 /run.sh
