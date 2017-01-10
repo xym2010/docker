@@ -26,6 +26,9 @@ RUN apt-get install  -y python-pip python-dev build-essential
 # nginx
 RUN apt-get install -y nginx
 
+# vim
+RUN apt-get install -y vim
+
 # git
 RUN apt-get install -y git
 
